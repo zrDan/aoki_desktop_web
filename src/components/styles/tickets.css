@@ -1,0 +1,66 @@
+.tickets_container {
+  display: grid;
+  grid-template-rows: 10% 90%;
+}
+
+.poster {
+  height: 450px;
+  border-radius: 30px;
+}
+
+.preview {
+  padding-left: 80px;
+  height: 300px;
+  width: 400px;
+  align-self: center;
+}
+
+.options {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.options button {
+  border: 3px #5aa9d9 solid;
+  border-radius: 10px;
+  height: 50px;
+  width: 150px;
+  color: #ffffff;
+  background-color: #1c1d1d;
+  font-size: small;
+}
+
+.options .ultimate_vip_btn {
+  border: 3px #e2b457 solid;
+}
+
+.ticket_info {
+  display: flex;
+  padding-top: 10px;
+}
+
+.container_info {
+  align-content: space-between;
+  justify-content: center;
+}
+
+.ultimateVipPackage {
+  display: flex;
+}
+
+.cakeFaceVipPackage {
+  display: none;
+}
+
+.meetVipPackage {
+  display: none;
+}
+
+.vipPackage {
+  display: none;
+}
+
+.meetPackage {
+  display: none;
+}
