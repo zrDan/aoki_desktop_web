@@ -1,0 +1,214 @@
+/* Tablet */
+@media screen and (min-width: 768px) {
+  .header img {
+    height: 4rem;
+  }
+
+  #main_page {
+    height: 30rem;
+  }
+
+  .aoki-image img {
+    height: 19rem;
+  }
+
+  .poster {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    justify-items: center;
+    height: 50vh;
+  }
+}
+
+/* Desktop */
+@media screen and (min-width: 1280px) {
+  .tour,
+  .media {
+    height: 100%;
+    display: flex;
+    align-content: center;
+  }
+
+  .tour-options a,
+  .media-options a {
+    padding-left: 5px;
+  }
+  .burger-menu {
+    display: none;
+  }
+
+  .close-menu {
+    display: none;
+  }
+
+  .menu {
+    position: relative;
+    top: unset;
+    right: unset;
+    width: auto;
+    flex-flow: unset;
+    grid-column-start: 2;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .menu-option {
+    padding: 0 1.2rem 0 0;
+    font-size: 0.85rem;
+  }
+
+  .tour span img,
+  .media span img {
+    padding-top: 0.2rem;
+    padding-left: 0.1rem;
+  }
+
+  #main_page {
+    height: calc(100vh - 4rem);
+  }
+
+  .header img {
+    height: 5rem;
+  }
+
+  .aoki-image img {
+    height: 25rem;
+  }
+
+  .listen-option button {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid var(--blue);
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: var(--blue);
+    line-height: 2rem;
+  }
+
+  .dates h3,
+  .tickets h3 {
+    font-size: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .dates img {
+    width: 74%;
+  }
+
+  .buttons button {
+    width: 8rem;
+  }
+
+  .poster {
+    height: 80vh;
+  }
+
+  .poster img {
+    width: 70%;
+    padding-bottom: 0.5rem;
+  }
+
+  .poster_img {
+    justify-self: right;
+    padding-right: 2rem;
+  }
+
+  #foundation h3 {
+    font-size: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 5rem;
+  }
+
+  .foundation-container {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: 70% 30%;
+  }
+
+  .foundation-cover {
+    width: 100%;
+    padding-bottom: 0;
+  }
+
+  .foundation-cover img {
+    width: 60%;
+  }
+
+  .foundation-text {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    letter-spacing: 1px;
+    text-align: justify;
+  }
+
+  .foundation-buttons {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+
+  .info,
+  .donate {
+    font-size: 0.85rem;
+    height: 2.5rem;
+    margin: 2rem;
+    color: #ffffff;
+  }
+
+  #app h3 {
+    font-size: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .app-container {
+    flex-flow: nowrap;
+  }
+
+  .app-image {
+    height: 20rem;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-bottom: 0;
+    padding-top: 1rem;
+  }
+
+  .app-image img {
+    width: auto;
+    height: 20rem;
+  }
+
+  .app-download {
+    display: grid;
+    grid-template-rows: repeat(2, 50%);
+    width: 50%;
+    text-align: center;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+  }
+
+  .store {
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .google {
+    height: 4rem;
+    padding-right: 1rem;
+  }
+
+  .apple {
+    padding-left: 1rem;
+    height: 2.74rem;
+  }
+}

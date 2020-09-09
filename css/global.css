@@ -1,0 +1,388 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Peta&display=swap");
+
+*,
+body {
+  font-family: "Lexend Peta", sans-serif;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --black-background: #000000;
+  --grey-text: #3d3d3d;
+  --white-text: #ededed;
+  --border-bottom: #a5a5a5;
+  --blue: #62b8ea;
+  --orenge: #fb9a40;
+}
+
+/* NAVBAR */
+nav {
+  background-color: var(--black-background);
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  height: 4rem;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.brand {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+}
+
+.brand img {
+  height: 3rem;
+}
+
+.burger-menu {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 1.5rem;
+}
+
+.menu {
+  position: fixed;
+  top: 0;
+  right: -50%;
+  width: 12rem;
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+  background-color: var(--black-background);
+  color: var(--white-text);
+  transition: all 0.6s ease-in-out;
+}
+
+.close-menu {
+  display: flex;
+  height: 4rem;
+  justify-content: flex-end;
+  padding: 0.5rem 1.2rem 0 0;
+}
+
+.close-menu img {
+  height: 36px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: var(--white-text);
+}
+
+.menu-option {
+  padding: 0 0 1.3rem 1.3rem;
+  font-size: 0.8rem;
+}
+
+.tour span,
+.media span {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.tour span img,
+.media span img {
+  transition: all 0.38s ease-in-out;
+}
+
+.tour-options {
+  display: none;
+}
+
+.tour-options a {
+  padding: 1.3rem 0rem 0rem 1rem;
+}
+
+.media-options {
+  display: none;
+}
+
+.media-options a {
+  display: flex;
+  padding: 1.3rem 0rem 0rem 1rem;
+}
+
+.media-icon {
+  height: 1rem;
+  padding-right: 0.3rem;
+}
+
+/* MAIN PAGE*/
+#main_page {
+  display: grid;
+  grid-template-rows: 30% 70%;
+  height: 18rem;
+  border-bottom: 1.3px solid var(--border-bottom);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header img {
+  height: 3rem;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+}
+
+.aoki-image {
+  display: flex;
+  align-items: flex-end;
+}
+
+.aoki-image img {
+  height: 12rem;
+}
+
+.listen-option {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.listen-option a {
+  transition: transform 1s;
+  text-decoration: none;
+  border-bottom: 2px solid var(--blue);
+  letter-spacing: 2px;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color: var(--blue);
+  line-height: 2.5rem;
+}
+
+.listen-option a:hover {
+  transform: scale(1.5);
+}
+
+/* TOUR */
+.dates {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid var(--border-bottom);
+}
+
+.tickets {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid var(--border-bottom);
+  padding-bottom: 1rem;
+}
+
+.dates h3,
+.tickets h3 {
+  text-transform: uppercase;
+  color: var(--blue);
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+}
+
+.dates img {
+  width: 95%;
+  padding-bottom: 1.5rem;
+}
+
+.tickets-options .buttons {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  padding-bottom: 2rem;
+}
+
+.buttons button {
+  height: 2.5rem;
+  width: 7rem;
+  font-size: 0.7rem;
+  border: 1px solid var(--border-bottom);
+  background-color: transparent;
+  color: var(--grey-text);
+  margin-right: 17px;
+  margin-top: 17px;
+  cursor: pointer;
+}
+
+.buttons button:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.poster {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.poster img {
+  animation: fadeInDown 3s;
+  width: 92%;
+  padding-bottom: 0.5rem;
+}
+
+/* FOUNDATION */
+#foundation {
+  padding-bottom: 1.5rem;
+}
+
+#foundation h3 {
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--blue);
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+}
+
+.foundation-container {
+  display: grid;
+  justify-items: center;
+}
+
+.foundation-cover {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  padding-bottom: 1.5rem;
+}
+
+.foundation-cover img {
+  width: 100%;
+}
+
+.foundation-text {
+  width: 90%;
+  font-size: 0.8rem;
+  text-align: justify;
+  padding-bottom: 1.5rem;
+}
+
+.foundation-buttons {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+}
+
+.info,
+.donate {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+  border: 0;
+  height: 2rem;
+  width: 8rem;
+  margin: 1rem;
+  color: var(--white-text);
+  text-decoration: none;
+}
+
+.info {
+  background-color: var(--blue);
+}
+
+.donate {
+  background-color: var(--orenge);
+}
+
+/* APP */
+#app {
+  background-color: var(--black-background);
+  color: var(--white-text);
+  padding-bottom: 0.8rem;
+  border-bottom: 1px solid var(--border-bottom);
+}
+
+#app h3 {
+  text-align: center;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  text-transform: uppercase;
+}
+
+.app-container {
+  display: flex;
+  flex-flow: column;
+}
+
+.app-image {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 0.8rem;
+}
+
+.app-image img {
+  width: 75%;
+}
+
+.app-download {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  font-size: 0.8rem;
+  letter-spacing: 0.1rem;
+}
+
+.store {
+  padding-top: 0.8rem;
+  display: flex;
+  align-items: center;
+}
+
+.google {
+  height: 3rem;
+  padding-right: 0.5rem;
+}
+
+.apple {
+  padding-left: 0.5rem;
+  height: 2.1rem;
+}
+
+/* FOOTER */
+footer {
+  background-color: var(--black-background);
+  height: 5rem;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  height: 100%;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+}
+
+.footer-logo img {
+  height: 4rem;
+}
+
+.footer-media {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 0.5rem;
+}
+
+.footer-media img {
+  height: 1.3rem;
+  padding-right: 1rem;
+}
