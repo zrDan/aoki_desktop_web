@@ -5,5 +5,5 @@ This project is a proposal for steve aoki site <BR>
 ## Technologies
 Project is created with: <BR> <BR>
 ![react](https://user-images.githubusercontent.com/42875282/89714341-68b67880-d963-11ea-8e1d-774d1029a818.png) ReactJs <BR>
-![js](https://user-images.githubusercontent.com/42875282/92638122-6f584880-f29f-11ea-9b81-8eceab941bd2.png)
+![js](https://user-images.githubusercontent.com/42875282/92638234-96af1580-f29f-11ea-8f4e-9ddfc452f363.png)
 
