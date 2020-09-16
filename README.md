@@ -1,6 +1,6 @@
 # Aoki web
 This project is a proposal for steve aoki site <BR>
-![web](https://user-images.githubusercontent.com/42875282/92638886-a11ddf00-f2a0-11ea-8392-68f65b802ff3.png) &nbsp; [Demo](https://aokiweb.herokuapp.com/.)
+![web](https://user-images.githubusercontent.com/42875282/92638886-a11ddf00-f2a0-11ea-8392-68f65b802ff3.png) &nbsp; [Demo](https://aoki.gtdan.com.)
 
 ## Technologies
 Project is created with: <BR> <BR>
